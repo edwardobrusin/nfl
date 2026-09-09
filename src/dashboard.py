@@ -26,15 +26,15 @@ No modifica nada de tu pipeline existente — solo LEE los CSV que ya se
 generan en outputs/weekly_predictions/.
 """
 
-import re
 from pathlib import Path
-from datetime import datetime
 
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
 
 from team_logos import logo_url, team_color, team_name
+from history_utils import load_all_snapshots as _load_all_snapshots, get_last_pre_kickoff_snapshot
+import re
 
 st.set_page_config(page_title="NFL Predictor — Dashboard", layout="wide", page_icon="🏈")
 
@@ -56,36 +56,24 @@ def tier_style(tier_raw: str):
 
 
 # ---------------------------------------------------------------------
-# Carga de datos
+# Carga de datos (la lógica de parseo vive en history_utils.py, compartida
+# con check_results.py — aquí solo se envuelve con el cache de Streamlit)
 # ---------------------------------------------------------------------
 
 @st.cache_data(ttl=60)
 def load_all_snapshots(folder: str) -> pd.DataFrame:
-    path = Path(folder)
-    if not path.exists():
+    return _load_all_snapshots(folder)
+
+
+@st.cache_data(ttl=60)
+def load_track_record(path: str) -> pd.DataFrame:
+    p = Path(path)
+    if not p.exists():
         return pd.DataFrame()
-
-    frames = []
-    for f in sorted(path.glob("predictions_*.csv")):
-        m = FILENAME_RE.search(f.name)
-        if not m:
-            continue
-        generated_at = datetime.strptime(m.group(1) + m.group(2), "%Y%m%d%H%M")
-        df = pd.read_csv(f)
-        df["generated_at"] = generated_at
-        df["source_file"] = f.name
-        frames.append(df)
-
-    if not frames:
-        return pd.DataFrame()
-
-    all_df = pd.concat(frames, ignore_index=True)
-    all_df["commence_time"] = pd.to_datetime(all_df["commence_time"])
-    all_df["game_key"] = (
-        all_df["home_team"] + " vs " + all_df["away_team"]
-        + " (" + all_df["commence_time"].dt.strftime("%Y-%m-%d %H:%M") + ")"
-    )
-    return all_df.sort_values("generated_at")
+    df = pd.read_csv(p)
+    df["commence_time"] = pd.to_datetime(df["commence_time"])
+    df["generated_at"] = pd.to_datetime(df["generated_at"])
+    return df
 
 
 def make_demo_data() -> pd.DataFrame:
@@ -182,7 +170,9 @@ def pick_changed_info(game_key: str):
 # Tabs
 # ---------------------------------------------------------------------
 
-tab1, tab2, tab3 = st.tabs(["📋 Picks actuales", "📈 Historial por juego", "🗂️ Todos los snapshots"])
+tab1, tab2, tab3, tab4 = st.tabs([
+    "📋 Picks actuales", "📈 Historial por juego", "🗂️ Todos los snapshots", "🎯 Track record",
+])
 
 with tab1:
     st.subheader("Picks de la corrida más reciente, por juego")
@@ -318,3 +308,68 @@ with tab3:
         file_name="historial_completo_predicciones.csv",
         mime="text/csv",
     )
+
+with tab4:
+    st.subheader("¿El modelo está acertando de verdad?")
+    st.caption(
+        "Compara el ÚLTIMO pick hecho antes del kickoff de cada juego contra el resultado "
+        "real. Se genera corriendo `check_results.py` (o `run_pipeline.py`, que ya lo "
+        "incluye al final)."
+    )
+
+    track_path = str(_SCRIPT_DIR.parent / "outputs" / "track_record.csv")
+    track = load_track_record(track_path)
+
+    if track.empty:
+        st.info(
+            "Todavía no hay resultados calificados. Corre `python3 check_results.py` "
+            "(o `python3 run_pipeline.py`) después de que se hayan jugado partidos con "
+            "predicción registrada antes del kickoff."
+        )
+    else:
+        acc = track["correct"].mean()
+        n = len(track)
+
+        col_a, col_b, col_c = st.columns(3)
+        col_a.metric("Accuracy real acumulado", f"{acc:.1%}", f"{track['correct'].sum()}/{n} juegos")
+        col_b.metric("Juegos calificados", n)
+        racha = track.sort_values("commence_time")["correct"].tail(5).tolist()
+        col_c.metric("Últimos 5", " ".join("✅" if c else "❌" for c in racha))
+
+        st.markdown("##### Accuracy real vs. lo esperado por banda de confianza")
+        st.caption(
+            "La línea punteada es el accuracy histórico 2006-2024 de cada banda "
+            "(sección 16 del plan maestro). Con pocos juegos calificados, tu barra real "
+            "puede estar lejos de la línea solo por tamaño de muestra chico — no saques "
+            "conclusiones fuertes hasta tener varias semanas de datos."
+        )
+        expected = {"1": 0.790, "2": 0.634, "3": 0.565, "4": 0.534}
+        track["tier_key"] = track["tier"].astype(str).str.split("_").str[0]
+        by_tier = track.groupby("tier_key")["correct"].agg(["mean", "count"]).reindex(["1", "2", "3", "4"])
+
+        fig_tier = go.Figure()
+        fig_tier.add_trace(go.Bar(
+            x=[TIER_STYLE[k][2] for k in by_tier.index], y=by_tier["mean"],
+            name="Accuracy real", marker_color=[TIER_STYLE[k][0] for k in by_tier.index],
+            text=[f"{v:.0%} (n={int(c)})" if not pd.isna(v) else "sin datos"
+                  for v, c in zip(by_tier["mean"], by_tier["count"])],
+            textposition="outside",
+        ))
+        fig_tier.add_trace(go.Scatter(
+            x=[TIER_STYLE[k][2] for k in by_tier.index], y=[expected[k] for k in by_tier.index],
+            mode="markers", name="Esperado (histórico 2006-2024)",
+            marker=dict(symbol="line-ew", size=30, line=dict(width=3, color="white")),
+        ))
+        fig_tier.update_layout(yaxis=dict(tickformat=".0%", range=[0, 1]), height=380)
+        st.plotly_chart(fig_tier, use_container_width=True)
+
+        st.markdown("##### Detalle juego por juego")
+        detail = track.sort_values("commence_time", ascending=False).copy()
+        detail["Resultado"] = detail["correct"].map({1: "✅ Acertó", 0: "❌ Falló"})
+        detail["Marcador"] = detail["home_team"] + " " + detail["home_score"].astype(int).astype(str) + " - " \
+            + detail["away_score"].astype(int).astype(str) + " " + detail["away_team"]
+        st.dataframe(
+            detail[["commence_time", "home_team", "away_team", "pick", "actual_winner",
+                    "Marcador", "tier", "Resultado"]],
+            use_container_width=True, hide_index=True,
+        )
