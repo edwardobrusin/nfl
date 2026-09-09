@@ -1,0 +1,5 @@
+Fase 4 - Ensemble ponderado (mercado + Modelo A Elo/EPA)
+Mejor w_mercado: 0.9
+Accuracy ensemble: 0.6704
+Accuracy mercado puro (referencia): 0.6695
+Mejora: +0.0009

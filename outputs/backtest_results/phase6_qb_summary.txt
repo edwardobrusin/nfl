@@ -1,0 +1,5 @@
+Fase 6 - Modelo C (con QB rating) + ensemble
+Mercado puro:                 0.6640
+Modelo A (sin QB):            0.6334
+Modelo C (con QB rating):     0.6303
+Mejor ensemble (w=0.95):  0.6644

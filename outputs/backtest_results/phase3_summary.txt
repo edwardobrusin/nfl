@@ -1,0 +1,4 @@
+Fase 3 - Resumen walk-forward (test 2015-2024, excluye semana 1 de cada temporada)
+Mercado puro (Capa A):                     0.6695
+Modelo A - Elo+EPA sin mercado:             0.6182
+Modelo B - Elo+EPA + mercado como feature:  0.6541
