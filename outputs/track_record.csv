@@ -1,0 +1,2 @@
+game_key,home_team,away_team,commence_time,generated_at,pick,confidence,tier,actual_winner,home_score,away_score,correct
+SEA vs NE (2026-09-10 00:20),SEA,NE,2026-09-10 00:20:00,2026-09-09 23:30:00,SEA,0.6173852400721226,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),SEA,13.0,10.0,1
