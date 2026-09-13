@@ -1,0 +1,213 @@
+commence_time,home_team,away_team,p_home_market,p_model_a,p_home_final,pick,confidence,tier,n_bookmakers
+2026-09-13T17:00:00Z,PIT,ATL,0.7194631276989643,0.5718155,0.7120807454776198,PIT,0.7120807454776198,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",9
+2026-09-13T17:00:00Z,IND,BAL,0.4026177935907414,0.3415425,0.3995640295201254,BAL,0.6004359704798746,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),9
+2026-09-13T17:00:00Z,HOU,BUF,0.4831683746078876,0.2905658,0.47353824531478717,BUF,0.5264617546852128,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",8
+2026-09-13T17:00:00Z,CAR,CHI,0.4057444001476884,0.37462923,0.40418864197819176,CHI,0.5958113580218083,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),9
+2026-09-13T17:00:00Z,CIN,TB,0.6442497191852896,0.57155085,0.6406147751584887,CIN,0.6406147751584887,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),9
+2026-09-13T17:00:00Z,JAX,CLE,0.7851027063881565,0.8056352,0.7861293325064032,JAX,0.7861293325064032,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",9
+2026-09-13T17:00:00Z,DET,NO,0.7380319762820367,0.7560183,0.7389312930071995,DET,0.7389312930071995,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",9
+2026-09-13T17:00:00Z,TEN,NYJ,0.51481891688082,0.5930167,0.5187288063571325,TEN,0.5187288063571325,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",6
+2026-09-13T20:25:00Z,LAC,ARI,0.8000558809694037,0.7971521,0.7999106942557858,LAC,0.7999106942557858,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",9
+2026-09-13T20:25:00Z,MIN,GB,0.5439253690071068,0.49458128,0.5414581642911636,MIN,0.5414581642911636,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",9
+2026-09-13T20:25:00Z,LV,MIA,0.5989154823700263,0.26102996,0.5820212060015093,LV,0.5820212060015093,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),9
+2026-09-13T20:25:00Z,PHI,WAS,0.6980138587655854,0.70767856,0.6984970943944772,PHI,0.6984970943944772,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),9
+2026-09-14T00:20:00Z,NYG,DAL,0.3987471929985398,0.34922448,0.3962710568764019,DAL,0.6037289431235981,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),9
+2026-09-15T00:15:00Z,KC,DEN,0.5543802993823292,0.51591045,0.5524568074904623,KC,0.5524568074904623,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",9
+2026-09-18T00:15:00Z,BUF,DET,0.6099645714218468,0.74744767,0.6168387270711161,BUF,0.6168387270711161,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),4
+2026-09-20T17:00:00Z,ATL,CAR,0.5192587399091387,0.63977295,0.5252844497487705,ATL,0.5252844497487705,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",4
+2026-09-20T17:00:00Z,BAL,NO,0.7654072494886318,0.77831376,0.7660525770488281,BAL,0.7660525770488281,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",4
+2026-09-20T17:00:00Z,CHI,MIN,0.5918878746490973,0.5037821,0.5874825863379471,CHI,0.5874825863379471,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),4
+2026-09-20T17:00:00Z,HOU,CIN,0.56153619539746,0.35569033,0.5512439028859927,HOU,0.5512439028859927,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",4
+2026-09-20T17:00:00Z,TB,CLE,0.71806724173454,0.722114,0.718269583210311,TB,0.718269583210311,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",4
+2026-09-20T17:00:00Z,NYJ,GB,0.32116841491841486,0.16799259,0.31350962413791866,GB,0.6864903758620813,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),4
+2026-09-20T17:00:00Z,NE,PIT,0.6446703462344288,0.5849428,0.6416839694345777,NE,0.6416839694345777,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),3
+2026-09-20T17:00:00Z,TEN,PHI,0.32167152167308405,0.3546477,0.3233203311353988,PHI,0.6766796688646012,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),4
+2026-09-20T20:05:00Z,DEN,JAX,0.5788284524918377,0.5312896,0.5764515087414523,DEN,0.5764515087414523,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),4
+2026-09-20T20:05:00Z,LAC,LV,0.7816661845682941,0.86235744,0.7857007487105268,LAC,0.7857007487105268,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",4
+2026-09-20T20:25:00Z,DAL,WAS,0.6526242640617518,0.4660727,0.6432966862770793,DAL,0.6432966862770793,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),4
+2026-09-21T00:20:00Z,KC,IND,0.6971185239701158,0.57245636,0.690885416882361,KC,0.690885416882361,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),4
+2026-09-25T00:15:00Z,GB,ATL,0.7571884984025559,0.60057145,0.749357645788465,GB,0.749357645788465,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-09-27T17:00:00Z,BUF,LAC,0.593369754159424,0.75686866,0.6015446987288937,BUF,0.6015446987288937,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-09-27T17:00:00Z,CLE,CAR,0.4675324675324675,0.48396412,0.4683540502974352,CAR,0.5316459497025647,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-09-27T17:00:00Z,PIT,CIN,0.4675324675324675,0.45484626,0.4668981584200224,CIN,0.5331018415799775,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-09-27T17:00:00Z,DET,NYJ,0.771505376344086,0.80087376,0.7729737968374324,DET,0.7729737968374324,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-09-27T17:00:00Z,IND,HOU,0.4675324675324675,0.49372554,0.46884212106853335,HOU,0.5311578789314666,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-09-27T17:00:00Z,MIA,KC,0.23409789548356585,0.39204928,0.2419954652213781,KC,0.758004534778622,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-09-27T17:00:00Z,NYG,TEN,0.5996387718242023,0.63726175,0.6015199228838616,NYG,0.6015199228838616,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-09-27T20:05:00Z,TB,MIN,0.5427435387673957,0.610831,0.5461479140597416,TB,0.5461479140597416,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-09-27T20:25:00Z,DAL,BAL,0.448558885283451,0.28265008,0.44026344537071554,BAL,0.5597365546292845,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-09-27T20:25:00Z,NO,LV,0.6224665518611737,0.81455845,0.6320711488236551,NO,0.6320711488236551,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-09-29T00:15:00Z,CHI,PHI,0.5173641257162701,0.40876132,0.5119339851828436,CHI,0.5119339851828436,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-02T00:15:00Z,CLE,PIT,0.448558885283451,0.39611915,0.4459368995138225,PIT,0.5540631004861776,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-04T13:30:00Z,WAS,IND,0.5173641257162701,0.45017964,0.5140049019994358,WAS,0.5140049019994358,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-04T17:00:00Z,NYG,ARI,0.7335423197492164,0.6669532,0.7302128663000456,NYG,0.7302128663000456,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-04T17:00:00Z,BAL,TEN,0.7659021045164341,0.83879143,0.769546570790437,BAL,0.769546570790437,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-04T17:00:00Z,CHI,NYJ,0.771505376344086,0.83738744,0.774799479656322,CHI,0.774799479656322,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-04T17:00:00Z,CIN,JAX,0.551441114716549,0.5453964,0.5511388787321034,CIN,0.5511388787321034,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-04T17:00:00Z,HOU,DAL,0.551441114716549,0.39804837,0.5437714782796088,HOU,0.5437714782796088,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-04T17:00:00Z,TB,GB,0.4675324675324675,0.44822386,0.4665670378544888,GB,0.5334329621455112,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-04T20:05:00Z,MIN,MIA,0.771505376344086,0.6748249,0.7666713544357848,MIN,0.7666713544357848,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-04T20:25:00Z,LV,KC,0.33099297893681046,0.24051638,0.3264691491500141,KC,0.6735308508499859,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-05T00:20:00Z,CAR,DET,0.4066302458405761,0.38757885,0.4056776769173398,DET,0.5943223230826602,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-06T00:15:00Z,NO,ATL,0.551441114716549,0.57804525,0.5527713214299861,NO,0.5527713214299861,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-09T00:15:00Z,DAL,TB,0.644729178800233,0.44335863,0.6346606521023763,DAL,0.6346606521023763,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-11T13:30:00Z,JAX,PHI,0.4675324675324675,0.51947767,0.4701297285446486,PHI,0.5298702714553514,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-11T17:00:00Z,MIA,CIN,0.299837925445705,0.35585198,0.3026386284491279,CIN,0.6973613715508721,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-11T17:00:00Z,NYJ,CLE,0.5427435387673957,0.2417255,0.5276926368626786,NYJ,0.5276926368626786,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-11T17:00:00Z,TEN,HOU,0.3775334481388264,0.4852582,0.3829196864406701,HOU,0.6170803135593299,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-11T17:00:00Z,PIT,IND,0.5634920634920635,0.6049484,0.5655648803900158,PIT,0.5655648803900158,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-11T17:00:00Z,NO,MIN,0.4675324675324675,0.6409187,0.4762017785051426,MIN,0.5237982214948573,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-11T17:00:00Z,WAS,NYG,0.5427435387673957,0.5828023,0.5447464766132666,WAS,0.5447464766132666,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-11T20:05:00Z,LAC,DEN,0.5634920634920635,0.5329718,0.5619660506586707,LAC,0.5619660506586707,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-11T20:25:00Z,ARI,DET,0.23409789548356585,0.3280173,0.23879386505720307,DET,0.761206134942797,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-11T20:25:00Z,GB,CHI,0.5996387718242023,0.5041329,0.5948634791836672,GB,0.5948634791836672,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-12T00:20:00Z,ATL,BAL,0.3630958183058778,0.41267565,0.36557481058202634,BAL,0.6344251894179737,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-18T13:30:00Z,JAX,HOU,0.5043297540699688,0.5582523,0.5070258812335615,JAX,0.5070258812335615,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-18T17:00:00Z,ATL,CHI,0.4170073589533933,0.4398906,0.418151520297711,CHI,0.5818484797022889,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-18T17:00:00Z,CLE,BAL,0.31460674157303364,0.33096066,0.31542443829808336,BAL,0.6845755617019167,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-18T17:00:00Z,PHI,CAR,0.705033164260632,0.7090713,0.7052350714663206,PHI,0.7052350714663206,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-18T17:00:00Z,IND,TEN,0.6369041816941223,0.6922988,0.6396739155773079,IND,0.6396739155773079,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-18T17:00:00Z,NYG,NO,0.5634920634920635,0.5509266,0.5628637916038907,NYG,0.5628637916038907,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-18T17:00:00Z,TB,PIT,0.5324675324675325,0.5539633,0.5335423206499258,TB,0.5335423206499258,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-18T20:25:00Z,LV,BUF,0.299837925445705,0.17697276,0.2936946674471953,BUF,0.7063053325528047,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-18T20:25:00Z,KC,LAC,0.5634920634920635,0.48747653,0.5596912878195918,KC,0.5596912878195918,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-19T00:20:00Z,GB,DAL,0.6037569709421778,0.41777626,0.5944579352350539,GB,0.5944579352350539,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-25T13:30:00Z,NO,PIT,0.43650793650793646,0.54336476,0.441850778218063,PIT,0.558149221781937,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-25T17:00:00Z,BAL,CIN,0.6224665518611737,0.5003895,0.6163627004583244,BAL,0.6163627004583244,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-25T17:00:00Z,CAR,TB,0.4675324675324675,0.3871374,0.4635127151796183,TB,0.5364872848203817,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-25T17:00:00Z,TEN,CLE,0.551441114716549,0.5145095,0.549594533561844,TEN,0.549594533561844,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-25T17:00:00Z,HOU,NYG,0.6750312469954812,0.6726422,0.6749117954500266,HOU,0.6749117954500266,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-10-25T17:00:00Z,MIN,IND,0.5634920634920635,0.7002093,0.5703279285322106,MIN,0.5703279285322106,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-25T17:00:00Z,NYJ,MIA,0.5634920634920635,0.16941778,0.543788349498359,NYJ,0.543788349498359,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-10-25T20:05:00Z,ARI,DEN,0.2428115015974441,0.23792756,0.2425673048782606,DEN,0.7574326951217394,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-10-25T20:25:00Z,DET,GB,0.5634920634920635,0.6045143,0.5655431749860919,DET,0.5655431749860919,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-27T00:15:00Z,PHI,DAL,0.593369754159424,0.5565889,0.5915307104873404,PHI,0.5915307104873404,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-10-30T00:15:00Z,GB,CAR,0.740871613663133,0.7365096,0.7406535147822014,GB,0.7406535147822014,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-01T18:00:00Z,DAL,ARI,0.8081570996978852,0.6539378,0.8004461362890426,DAL,0.8004461362890426,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-01T18:00:00Z,TB,ATL,0.6574752261956054,0.6357839,0.6563906596783342,TB,0.6563906596783342,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-01T18:00:00Z,BUF,BAL,0.551441114716549,0.69746906,0.5587425110182944,BUF,0.5587425110182944,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-01T18:00:00Z,CIN,TEN,0.7135512302607419,0.82957625,0.7193524814422543,CIN,0.7193524814422543,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-01T18:00:00Z,PIT,CLE,0.690792883054068,0.7221556,0.692361017450559,PIT,0.692361017450559,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-01T18:00:00Z,DET,MIN,0.6636481241914618,0.6511058,0.6630210112736958,DET,0.6630210112736958,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-01T18:00:00Z,JAX,IND,0.6574752261956054,0.7135853,0.660280730742568,JAX,0.660280730742568,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-01T18:00:00Z,NYJ,LV,0.5324675324675325,0.45701948,0.5286951293757597,NYJ,0.5286951293757597,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-01T21:25:00Z,DEN,KC,0.5324675324675325,0.74633026,0.5431606681606213,DEN,0.5431606681606213,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-02T01:20:00Z,WAS,PHI,0.4675324675324675,0.39215705,0.4637636973002514,PHI,0.5362363026997485,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-06T01:15:00Z,BAL,JAX,0.644729178800233,0.5309785,0.6390416456474317,BAL,0.6390416456474317,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-08T14:30:00Z,ATL,CIN,0.33099297893681046,0.39884087,0.3343853733391168,CIN,0.6656146266608832,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-08T18:00:00Z,CAR,DEN,0.4066302458405761,0.39989862,0.4062936648440614,DEN,0.5937063351559386,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-11-08T18:00:00Z,NO,CLE,0.6309403437815976,0.71835464,0.635311059457136,NO,0.635311059457136,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-08T18:00:00Z,IND,DAL,0.4675324675324675,0.35421285,0.4618664870449862,DAL,0.5381335129550138,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-08T18:00:00Z,MIA,DET,0.2949668357393679,0.3151643,0.2959767084708273,DET,0.7040232915291726,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-08T18:00:00Z,KC,NYJ,0.7659021045164341,0.6781957,0.7615167857831986,KC,0.7615167857831986,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-08T18:00:00Z,PHI,NYG,0.6750312469954812,0.69657516,0.6761084443755694,PHI,0.6761084443755694,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-08T21:05:00Z,LAC,HOU,0.551441114716549,0.6234176,0.5550399394027177,LAC,0.5550399394027177,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-09T01:20:00Z,CHI,TB,0.6369041816941223,0.5048495,0.6303014484021818,CHI,0.6303014484021818,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-10T01:15:00Z,MIN,BUF,0.39076376554174075,0.33278516,0.38786483597718385,BUF,0.6121351640228161,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-13T01:15:00Z,NYG,WAS,0.5260865852617197,0.46373868,0.522969191110514,NYG,0.522969191110514,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-15T18:00:00Z,ATL,KC,0.35527082119976705,0.6030274,0.367658651052569,KC,0.632341348947431,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-15T18:00:00Z,NYJ,BUF,0.2591283863368669,0.15107249,0.25372559147490925,BUF,0.7462744085250907,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-15T18:00:00Z,NO,CAR,0.5217391304347826,0.7101466,0.5311595064466414,NO,0.5311595064466414,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-15T18:00:00Z,CLE,HOU,0.35527082119976705,0.5185156,0.3634330598549591,HOU,0.6365669401450409,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-15T18:00:00Z,GB,MIN,0.6805555555555556,0.6337277,0.6782141657339202,GB,0.6782141657339202,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-15T18:00:00Z,IND,MIA,0.7220792588780237,0.5353802,0.7127443062842307,IND,0.7127443062842307,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-15T18:00:00Z,TEN,JAX,0.448558885283451,0.2938664,0.4408242608167943,JAX,0.5591757391832057,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-16T01:20:00Z,CIN,PIT,0.6369041816941223,0.5367957,0.6318987560246145,CIN,0.6318987560246145,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-17T01:15:00Z,BAL,LAC,0.6164383561643836,0.6279571,0.6170142951281103,BAL,0.6170142951281103,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-20T01:15:00Z,HOU,IND,0.6750312469954812,0.6237283,0.6724660995282479,HOU,0.6724660995282479,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-22T18:00:00Z,KC,ARI,0.8223350253807106,0.6745317,0.8149448582779634,KC,0.8149448582779634,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-22T18:00:00Z,CAR,BAL,0.34252477380439467,0.37111586,0.3439543290253936,BAL,0.6560456709746064,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-22T18:00:00Z,BUF,MIA,0.827123695976155,0.8853947,0.8300372480335694,BUF,0.8300372480335694,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-22T18:00:00Z,CHI,NO,0.7095435684647302,0.70183295,0.7091580397824281,CHI,0.7091580397824281,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-22T18:00:00Z,DAL,TEN,0.7135512302607419,0.71222866,0.7134851007934029,DAL,0.7134851007934029,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-22T18:00:00Z,DET,TB,0.6636481241914618,0.48239145,0.6545852906958598,DET,0.6545852906958598,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-22T18:00:00Z,NYG,JAX,0.4675324675324675,0.3434241,0.4613270501086077,JAX,0.5386729498913922,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-22T21:05:00Z,LAC,NYJ,0.7768331562167907,0.81517047,0.7787500224960028,LAC,0.7787500224960028,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-22T21:25:00Z,DEN,LV,0.740871613663133,0.8619439,0.746925227264177,DEN,0.746925227264177,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-22T21:25:00Z,PHI,PIT,0.6750312469954812,0.70068216,0.6763137935526915,PHI,0.6763137935526915,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-24T01:15:00Z,WAS,CIN,0.4675324675324675,0.36509982,0.4624108357766232,CIN,0.5375891642233768,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-26T18:00:00Z,DET,CHI,0.5634920634920635,0.53502625,0.5620687736760056,DET,0.5620687736760056,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-11-26T20:30:00Z,DAL,PHI,0.5324675324675325,0.33437532,0.5225629215648809,DAL,0.5225629215648809,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-27T01:20:00Z,BUF,KC,0.5720596355604638,0.81498677,0.5842059913066162,BUF,0.5842059913066162,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-11-27T20:00:00Z,PIT,DEN,0.4739134147382802,0.4753207,0.47398377921543267,DEN,0.5260162207845673,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-29T18:00:00Z,MIN,ATL,0.6574752261956054,0.61696506,0.6554497184041681,MIN,0.6554497184041681,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-29T18:00:00Z,HOU,BAL,0.5260865852617197,0.40565854,0.5200651838991864,HOU,0.5200651838991864,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-29T18:00:00Z,CIN,NO,0.7095435684647302,0.7330867,0.7107207245568269,CIN,0.7107207245568269,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-11-29T18:00:00Z,CLE,LV,0.5260865852617197,0.63916624,0.531740567794822,CLE,0.531740567794822,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-29T18:00:00Z,IND,NYG,0.551441114716549,0.5619366,0.5519658894530717,IND,0.5519658894530717,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-29T18:00:00Z,JAX,TEN,0.6750312469954812,0.82027453,0.6822934134729453,JAX,0.6822934134729453,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-11-29T18:00:00Z,MIA,NYJ,0.5324675324675325,0.5682163,0.5342549724093119,MIA,0.5342549724093119,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-11-29T21:25:00Z,ARI,WAS,0.34252477380439467,0.35002372,0.3428997216936408,WAS,0.6571002783063592,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-01T01:15:00Z,TB,CAR,0.6369041816941223,0.6652925,0.6383235984269535,TB,0.6383235984269535,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-06T18:00:00Z,ATL,DET,0.3775334481388264,0.4788239,0.3825979703704949,DET,0.6174020296295051,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-06T18:00:00Z,CHI,JAX,0.5829926410466066,0.40339085,0.5740125520966599,CHI,0.5740125520966599,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-12-06T18:00:00Z,CLE,CIN,0.33635187580853815,0.3230953,0.33568904623822976,CIN,0.6643109537617702,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-06T18:00:00Z,DEN,MIA,0.7913616398243045,0.78773224,0.7911801692649263,DEN,0.7911801692649263,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-12-06T18:00:00Z,NO,GB,0.33635187580853815,0.48310176,0.34368936978714276,GB,0.6563106302128572,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-06T18:00:00Z,TB,LAC,0.448558885283451,0.549003,0.453581090898138,LAC,0.5464189091018621,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-06T18:00:00Z,TEN,WAS,0.4675324675324675,0.41161218,0.46473645441621153,WAS,0.5352635455837884,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-06T21:05:00Z,ARI,PHI,0.23409789548356585,0.2285875,0.23382237574693848,PHI,0.7661776242530616,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-12-06T21:25:00Z,MIN,CAR,0.6369041816941223,0.7545223,0.6427850880447781,MIN,0.6427850880447781,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-07T01:20:00Z,PIT,HOU,0.4739134147382802,0.58255607,0.4793455485638156,HOU,0.5206544514361844,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-13T18:00:00Z,CLE,ATL,0.5324675324675325,0.39916804,0.5258025588056484,CLE,0.5258025588056484,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-13T18:00:00Z,BAL,TB,0.690792883054068,0.65471816,0.6889891491680025,BAL,0.6889891491680025,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-13T18:00:00Z,CAR,NO,0.551441114716549,0.53398186,0.5505681530825082,CAR,0.5505681530825082,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-13T18:00:00Z,MIA,CHI,0.31460674157303364,0.27623165,0.31268798719380003,CHI,0.6873120128062,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-13T18:00:00Z,NYJ,DEN,0.33099297893681046,0.17065725,0.32297619216895124,DEN,0.6770238078310488,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-13T18:00:00Z,DET,TEN,0.7440690150970525,0.7919722,0.7464641745943418,DET,0.7464641745943418,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-12-13T18:00:00Z,WAS,HOU,0.4739134147382802,0.44004244,0.47221986543498184,HOU,0.5277801345650182,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-13T18:00:00Z,PHI,IND,0.6853932584269663,0.6900571,0.6856264519390095,PHI,0.6856264519390095,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-13T21:05:00Z,LV,LAC,0.33635187580853815,0.23272231,0.33117039762871076,LAC,0.6688296023712892,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-13T21:25:00Z,CIN,KC,0.5324675324675325,0.73102736,0.5423955233356396,CIN,0.5423955233356396,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-14T01:20:00Z,GB,BUF,0.5324675324675325,0.34799066,0.5232436885646025,GB,0.5232436885646025,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-15T01:15:00Z,JAX,PIT,0.593369754159424,0.6587025,0.596636390342091,JAX,0.596636390342091,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-12-20T01:20:00Z,BUF,CHI,0.6224665518611737,0.69142056,0.6259142535139685,BUF,0.6259142535139685,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-20T18:00:00Z,WAS,ATL,0.6224665518611737,0.48472342,0.6155793948431377,WAS,0.6155793948431377,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-20T18:00:00Z,PIT,BAL,0.42794036443953615,0.44397584,0.42874213876454687,BAL,0.5712578612354531,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-12-20T18:00:00Z,CAR,CIN,0.42794036443953615,0.3889987,0.4259932805809245,CIN,0.5740067194190754,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-12-20T18:00:00Z,NYG,CLE,0.644729178800233,0.57389766,0.641187602849151,NYG,0.641187602849151,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-20T18:00:00Z,GB,MIA,0.8316498316498315,0.620531,0.8210938915673027,GB,0.8210938915673027,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-12-20T18:00:00Z,HOU,JAX,0.5829926410466066,0.39905438,0.5737957290254185,HOU,0.5737957290254185,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-12-20T18:00:00Z,TEN,IND,0.4675324675324675,0.4490715,0.4666094186195692,IND,0.5333905813804307,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-20T18:00:00Z,TB,NO,0.6369041816941223,0.70315343,0.6402166456703102,TB,0.6402166456703102,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-20T21:05:00Z,ARI,NYJ,0.5,0.55897444,0.502948722243309,ARI,0.502948722243309,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-20T21:25:00Z,LV,DEN,0.35527082119976705,0.26802164,0.35090836285666094,DEN,0.6490916371433391,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-21T01:20:00Z,MIN,DET,0.4739134147382802,0.5601104,0.4782232638832107,DET,0.5217767361167893,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-25T01:15:00Z,PHI,HOU,0.551441114716549,0.66119516,0.5569288161835853,PHI,0.5569288161835853,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-25T18:00:00Z,CHI,GB,0.5173641257162701,0.4216999,0.5125809153707842,CHI,0.5125809153707842,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-25T21:30:00Z,DEN,BUF,0.4572564612326044,0.4539182,0.45708954835654964,BUF,0.5429104516434504,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-27T18:00:00Z,NO,ARI,0.6805555555555556,0.76711637,0.6848835976587402,NO,0.6848835976587402,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-27T18:00:00Z,ATL,TB,0.4675324675324675,0.47551286,0.4679314868935904,TB,0.5320685131064096,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-27T18:00:00Z,BAL,CLE,0.771505376344086,0.80875957,0.7733680852879119,BAL,0.7733680852879119,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-12-27T18:00:00Z,PIT,CAR,0.6309403437815976,0.6920733,0.6339969931066759,PIT,0.6339969931066759,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2026-12-27T18:00:00Z,IND,CIN,0.4739134147382802,0.4350832,0.47197190452478077,CIN,0.5280280954752192,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-27T18:00:00Z,LV,TEN,0.5324675324675325,0.2749296,0.5195906363016406,LV,0.5195906363016406,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-27T18:00:00Z,MIA,LAC,0.2428115015974441,0.2645612,0.2438989871952195,LAC,0.7561010128047805,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2026-12-27T18:00:00Z,MIN,WAS,0.551441114716549,0.5576704,0.5517525793305817,MIN,0.5517525793305817,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2026-12-28T01:20:00Z,DAL,JAX,0.593369754159424,0.2763744,0.5775199868070826,DAL,0.5775199868070826,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
+2026-12-29T01:15:00Z,DET,NYG,0.644729178800233,0.74508035,0.6497467367066396,DET,0.6497467367066396,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2027-01-01T01:15:00Z,CIN,BAL,0.551441114716549,0.5894843,0.5533432727000895,CIN,0.5533432727000895,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-03T18:00:00Z,ATL,NO,0.5260865852617197,0.68283904,0.5339242100332006,ATL,0.5339242100332006,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-03T18:00:00Z,MIA,BUF,0.24000000000000005,0.20852304,0.23842615156620744,BUF,0.7615738484337926,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2027-01-03T18:00:00Z,CLE,IND,0.448558885283451,0.40527388,0.44639463524602024,IND,0.5536053647539798,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-03T18:00:00Z,DAL,NYG,0.6574752261956054,0.5636659,0.6527847612086477,DAL,0.6527847612086477,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2027-01-03T18:00:00Z,JAX,WAS,0.6224665518611737,0.6075036,0.6217184050341015,JAX,0.6217184050341015,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2027-01-03T18:00:00Z,NYJ,MIN,0.3775334481388264,0.23753141,0.3705333467240568,MIN,0.6294666532759432,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2027-01-03T18:00:00Z,TEN,PIT,0.4675324675324675,0.44468042,0.4663898649105391,PIT,0.5336101350894609,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-03T21:05:00Z,ARI,LV,0.4572564612326044,0.61414623,0.46510095091881026,LV,0.5348990490811898,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-03T21:25:00Z,CHI,DET,0.5324675324675325,0.48665515,0.5301769138833919,CHI,0.5301769138833919,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-03T21:25:00Z,LAC,KC,0.5324675324675325,0.699263,0.5408073054215351,LAC,0.5408073054215351,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-05T01:15:00Z,GB,HOU,0.551441114716549,0.53170466,0.550454293309826,GB,0.550454293309826,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,CAR,ATL,0.551441114716549,0.43888834,0.5458134756676141,CAR,0.5458134756676141,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,BAL,PIT,0.6636481241914618,0.67073756,0.6640025954650182,BAL,0.6640025954650182,2_CONFIADO (hist. 63.4% acierto — confía en el modelo salvo info muy concreta y reciente),1
+2027-01-10T18:00:00Z,BUF,NYJ,0.7913616398243045,0.91609865,0.7975984905465978,BUF,0.7975984905465978,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2027-01-10T18:00:00Z,MIN,CHI,0.5324675324675325,0.5416263,0.5329254703185001,MIN,0.5329254703185001,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,CIN,CLE,0.7477827050997783,0.771649,0.7489760214863489,CIN,0.7489760214863489,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2027-01-10T18:00:00Z,WAS,DAL,0.4739134147382802,0.33256885,0.4668461863335147,DAL,0.5331538136664853,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,DEN,LAC,0.5260865852617197,0.7077183,0.5351681738708242,DEN,0.5351681738708242,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,GB,DET,0.551441114716549,0.5347456,0.5506063373080674,GB,0.5506063373080674,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,HOU,TEN,0.7179705215419501,0.7444946,0.7192967278042347,HOU,0.7192967278042347,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2027-01-10T18:00:00Z,IND,JAX,0.5260865852617197,0.32901174,0.5162328436587079,IND,0.5162328436587079,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,KC,LV,0.7600000000000001,0.77837455,0.7609187298715115,KC,0.7609187298715115,"1_LOCK (hist. 79.0% acierto — confía en el modelo, no intervengas por narrativa/rivalidad)",1
+2027-01-10T18:00:00Z,NO,TB,0.4675324675324675,0.54024404,0.4711680470445713,TB,0.5288319529554286,"4_MONEDA_AL_AIRE (hist. 53.4% acierto — empate real; usa info de último minuto, no presentimiento)",1
+2027-01-10T18:00:00Z,NYG,PHI,0.4066302458405761,0.40949842,0.40677365546050215,PHI,0.5932263445394979,3_PAREJO (hist. 56.5% acierto — el modelo tampoco tiene edge probado aquí; tu criterio con info fresca puede ayudar),1
